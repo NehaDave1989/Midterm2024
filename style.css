@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: antiquewhite;
+    color: rgb(red, green, blue);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /*style the navigation */
+  nav ul {
+    list-style-type: none;
+    color: rgb(255, 255, 255, 0);
+    margin: 10;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    color: rgb(255, 255, 255, 0);
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: sandybrown;
+    text-decoration: none;
+  }
+  
+  /*style the main content */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: darkcyan;
+  }
+  
+  /* style the footer */
+  footer {
+    background-color: darkcyan;
+    color: rgb(255, 255, 255, 0);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* style the image container */
+  .image-containar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block; /* Display the images side by side */
+  }
+  
+  .image {
+    margin: 10px;
+  }
+  
+  .image img {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    margin: 40px;
+    position: center;
+    overflow: hidden;
+    border-radius: 0%;
+    display: inline-block; /*Display the images side by side */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
